@@ -1,42 +1,38 @@
 # MERN E-commerce site (MongoDB, Express, React, Node)
 
 ## HTML/CSS/JS/Tailwind
-
--   Design e-commerce website
--   Responsive
--   Light & Dark modes
--   Tailwind css for styling
--   DOM manipulation
+- Design e-commerce website
+- Responsive
+- Light & Dark modes
+- Tailwind css for styling
+- DOM manipulation
 
 ## API - Node.js with Express.js (Typescript)
-
--   Create server
--   Authentication & Authorization
--   Product Model (CRUD)
--   User Model
--   Order Model
--   Payment Model
--   Khalti payment system/Stripe
--   Cloudinary for storage (images)
--   Gemini
+- Create server
+- Authentication & Authorization
+- Product Model (CRUD)
+- User Model
+- Order Model
+- Payment Model
+- Khalti payment system/Stripe
+- Cloudinary for storage (images)
+- Gemini
 
 ## Database - MongoDB, Mongoose ORM
-
--   Shell
--   Compass
--   Altas
+- Shell
+- Compass
+- Altas
 
 ## Webapp - React with Next.js (Typescript)
-
--   Basics react
--   Build project using Next.js
--   Connect with API
+- Basics react
+- Build project using Next.js
+- Connect with API
 
 ## HTML (Hypertext Markup language)
 
 for eg: <a href="www.google.com">Google</a>
 
-1. HTML Structure
+1. HTML Structure 
     - <html></html>
     - <head></head>
     - <body></body>
@@ -61,6 +57,28 @@ for eg: <a href="www.google.com">Google</a>
     - Block: Covers the full width
     - Inline: Covers required content width
 6. Table
+    - table
+    - tr
+    - th
+    - td
+    - thead,tbody,tfoot
+    - rowspan,colspan
 7. Forms
+    - input:text
+    - input:number
+    - input:email
+    - input:password
+    - input:tel
+    - input:date
+    - input:time
+    - input:range
+    - input:color
+    - input:file
+    - input:radio
+    - input:checkbox
+    - select, option
+    - textarea
+    - form
+    - attributes: type, name, id, for, checked, min, max, minlength, required, placeholder, value, selected, disabled
 8. Embedding
 9. Semantic elements

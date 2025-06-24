@@ -1,206 +1,686 @@
 <!DOCTYPE html>
-<html>
-
-    <head>
-        <title>MERN Stack Application</title>
-    </head>
-
-    <body>
-        <!---- Your Content Goes Here ---->
-        <!-- Heading -->
-        <!-- H1 to H6  -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Stack Application</title>
+    <style>
+        /* Basic table styling */
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        /* Section styling for better organization */
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h2.section-title {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Header Section -->
+    <header>
         <h1>Welcome to the MERN Stack Application</h1>
         <h2>Learn, Build, and Deploy</h2>
         <h3>Full-Stack Development</h3>
         <h4>JavaScript, React, Node.js</h4>
         <h5>MongoDB, Express.js</h5>
         <h6>Get Started Today!</h6>
+    </header>
 
-        <!-- Paragraph (p) -->
+    <!-- Text Content Section -->
+    <section>
+        <h2 class="section-title">Text Elements</h2>
+        
+        <!-- Paragraphs -->
         <p>This application is built using the MERN stack, which includes MongoDB, Express.js, React, and Node.js. It allows developers to create robust and scalable web applications using JavaScript on both the client and server sides.</p>
-        <!-- lorem (p with random text lorem200) -->
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis labore nihil ratione nam, laudantium quae? Harum commodi praesentium dignissimos quod possimus reprehenderit dolores incidunt sed veritatis laboriosam fuga autem officia eaque repellat mollitia doloribus, libero ut neque tenetur. Placeat aliquid tenetur impedit inventore iste numquam blanditiis nostrum molestias earum debitis velit adipisci asperiores perspiciatis natus vitae, beatae nihil ab vel at cum sapiente! Inventore vero numquam voluptates. Incidunt, unde laudantium distinctio at accusamus totam saepe neque maiores corporis nobis veniam sit dolorum. Rem alias, saepe maxime, pariatur quae voluptate, aperiam voluptatibus nesciunt quod tenetur quibusdam qui accusamus nisi iusto dolorum non deleniti eius nulla ex accusantium molestiae quo necessitatibus quam commodi. Inventore libero qui magni pariatur mollitia eveniet quidem tenetur esse sed quaerat sint eos sit nihil veritatis cupiditate non fuga vitae, ullam cum quisquam accusamus nostrum quasi quia! Quaerat dolorem amet voluptatem ducimus saepe, exercitationem voluptas nihil possimus ad! Vero iste officiis nam amet totam laboriosam corporis asperiores inventore delectus animi, quos, soluta non accusamus natus. Veritatis inventore a perferendis! Consequatur expedita dicta quasi quaerat, qui nobis eligendi praesentium, iusto corrupti illo molestias quis omnis aperiam recusandae error labore! Tempora laboriosam laborum cupiditate, molestiae quia consequuntur? Nostrum, qui?  </p> 
-
-        <!-- Bold and Italic Text (p with strong and em tags) -->
-        <p><strong>Lorem ipsum</strong> dolor sit amet, <em>consectetur</em> adipisicing elit. At debitis labore nihil ratione nam, laudantium quae?</p>
-
-        <!-- other way to bold and italic text (p with b and i tags)-->
-        <p><b>Lorem ipsum</b> dolor sit amet, <i>consectetur</i> adipisicing elit. At debitis labore nihil ratione nam, laudantium quae?</p>
-
-        <!-- Preformatted Text (pre>code) -->
+        
+        <!-- Sample text -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At debitis labore nihil ratione nam, laudantium quae? Harum commodi praesentium dignissimos quod possimus reprehenderit dolores incidunt sed veritatis laboriosam fuga autem officia eaque repellat mollitia doloribus, libero ut neque tenetur.</p>
+        
+        <!-- Text formatting -->
+        <p><strong>Strong importance</strong> and <em>emphasis</em> using semantic tags.</p>
+        <p><b>Bold text</b> and <i>italic text</i> using presentational tags.</p>
+        
+        <!-- Preformatted text -->
         <pre>
             HTML
             CSS
             JavaScript
         </pre>
+    </section>
 
-        <!--superscript and subscript-->
-        <!--superscript (sup)-->
+    <!-- Scientific Notation Section -->
+    <section>
+        <h2 class="section-title">Scientific Notation</h2>
+        
+        <!-- Superscript examples -->
         <p>Superscript: E = mc<sup>2</sup></p>
         <p>Superscript: 5<sup>3</sup> = 125</p>
         <p>Superscript: X<sup>2</sup></p>
         <p>Superscript: 10<sup>3</sup></p>
-
-        <!--subscript-->
+        
+        <!-- Subscript examples -->
         <p>Subscript: H<sub>2</sub>O</p>
         <p>Subscript: Na<sub>2</sub>SO<sub>4</sub></p>
         <p>Subscript: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
         <p>Subscript: CO<sub>2</sub></p>
+    </section>
 
-        <!-- Lists -->
-        <!-- Unordered List (ul>li) -->
-        <ul>
-            <li>MongoDB</li>
-            <li>Express.js</li>
-            <li>React</li>
-            <li>Node.js</li>
-        </ul>
-
-        <!-- Ordered List (ol>li) -->
-        <ol>
-            <li>MongoDB</li>
-            <li>Express.js</li>
-            <li>React</li>
-            <li>Node.js</li>
-        </ol>
-
-        <!-- Description list (dl>dt+dd) -->
-        <dl>
-            <dt>MongoDB</dt>
-            <dd>A NoSQL database for storing JSON-like documents.</dd>
-            <dt>Express.js</dt>
-            <dd>A web application framework for Node.js.</dd>
-            <dt>React</dt>
-            <dd>A JavaScript library for building user interfaces.</dd>
-            <dt>Node.js</dt>
-            <dd>A JavaScript runtime for server-side development.</dd>
-        </dl>
-
-        <!--Nested Unordered Lists (ul>li>ul)-->
-        <ul>
-            <li>MongoDB
-                <ul>
-                    <li>Database</li>
-                    <li>NoSQL</li>
-                </ul>
-            </li>
-            <li>Express.js
-                <ul>
-                    <li>Web Framework</li>
-                    <li>Node.js</li>
-                </ul>
-            </li>
-            <li>React
-                <ul>
-                    <li>JavaScript Library</li>
-                    <li>User Interfaces</li>
-                </ul>
-            </li>
-            <li>Node.js
-                <ul>
-                    <li>JavaScript Runtime</li>
-                    <li>Server-side</li>
-                </ul>
-            </li>
-        </ul>
-
-        <!--Nested Ordered Lists (ol>li>ol)-->
-        <ol>
-            <li>MongoDB
-                <ol>
-                    <li>Database</li>
-                    <li>NoSQL</li>
-                </ol>
-            </li>
-            <li>Express.js
-                <ol>
-                    <li>Web Framework</li>
-                    <li>Node.js</li>
-                </ol>
-            </li>
-            <li>React
-                <ol>
-                    <li>JavaScript Library</li>
-                    <li>User Interfaces</li>
-                </ol>
-            </li>
-            <li>Node.js
-                <ol>
-                    <li>JavaScript Runtime</li>
-                    <li>Server-side</li>
-                </ol>
-            </li>
-        </ol>
-        <!--Nested Description Lists (dl>dt+dd)-->
-        <dl>
-            <dt>MongoDB</dt>
-            <dd>A NoSQL database for storing JSON-like documents.</dd>
-            <dt>Express.js</dt>
-            <dd>A web application framework for Node.js.</dd>
-            <dt>React</dt>
-            <dd>A JavaScript library for building user interfaces.</dd>
-            <dt>Node.js</dt>
-            <dd>A JavaScript runtime for server-side development.</dd>
-        </dl>
-
-        <!--Link Tags (a)-->
-        <p>Link: <a href="https://www.mongodb.com">MongoDB</a></p>
-        <p>Link: <a href="https://expressjs.com">Express.js</a></p>
-        <p>Link: <a href="https://reactjs.org">React</a></p>
-        <p>Link: <a href="https://nodejs.org">Node.js</a></p>
-
-        <!-- Link Tags with target="_blank" (a)-->
-        <p>Link: <a href="https://www.mongodb.com" target="_blank">MongoDB</a></p>
-        <p>Link: <a href="https://expressjs.com" target="_blank">Express.js</a></p>
-        <p>Link: <a href="https://reactjs.org" target="_blank">React</a></p>
-        <p>Link: <a href="https://nodejs.org" target="_blank">Node.js</a></p>
-
-        <!-- Link Tags with rel="noopener noreferrer" (a)-->
-        <p>Link: <a href="https://www.mongodb.com" target="_blank" rel="noopener noreferrer">MongoDB</a></p>
-        <p>Link: <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer">Express.js</a></p>
-        <p>Link: <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a></p>
-        <p>Link: <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">Node.js</a></p>
-
-        <!-- Image Tags (img) -->
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Random Image"></p>
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Random Image"></p>
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Random Image"></p>
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Random Image"></p>
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Random Image"></p>
-
-        <!-- Image Tags with width and height attributes (img) -->
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Placeholder Image" width="150" height="250"></p>
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Placeholder Image" width="300" height="150"></p>
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Placeholder Image" width="50" height="150"></p>
-        <p>Image: <img src="https://pixabay.com/get/g1604a3cac7c075b37adc6c51c21ffeb58549b9ef36a5fb413311515d14864ccaf2f4794be2c646254d3fb96c16e3124c_640.jpg" alt="Placeholder Image" width="150" height="100"></p>
+    <!-- Lists Section -->
+    <section>
+        <h2 class="section-title">List Types</h2>
         
-        <!-- Embedding audio and video tags -->
-        <!-- Video Tags (video) -->
-        <p>Video: <video width="320" height="240" controls>
+        <!-- Unordered List -->
+        <h3>Unordered List</h3>
+        <ul>
+            <li>MongoDB</li>
+            <li>Express.js</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+        
+        <!-- Ordered List -->
+        <h3>Ordered List</h3>
+        <ol>
+            <li>MongoDB</li>
+            <li>Express.js</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ol>
+        
+        <!-- Description List -->
+        <h3>Description List</h3>
+        <dl>
+            <dt>MongoDB</dt>
+            <dd>A NoSQL database for storing JSON-like documents.</dd>
+            <dt>Express.js</dt>
+            <dd>A web application framework for Node.js.</dd>
+            <dt>React</dt>
+            <dd>A JavaScript library for building user interfaces.</dd>
+            <dt>Node.js</dt>
+            <dd>A JavaScript runtime for server-side development.</dd>
+        </dl>
+        
+        <!-- Nested Lists -->
+        <h3>Nested Lists</h3>
+        <ul>
+            <li>MongoDB
+                <ul>
+                    <li>Database</li>
+                    <li>NoSQL</li>
+                </ul>
+            </li>
+            <li>Express.js
+                <ol>
+                    <li>Web Framework</li>
+                    <li>Node.js</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Links Section -->
+    <section>
+        <h2 class="section-title">Hyperlinks</h2>
+        
+        <!-- Basic links -->
+        <p>Link to <a href="https://www.mongodb.com">MongoDB</a></p>
+        <p>Link to <a href="https://expressjs.com">Express.js</a></p>
+        
+        <!-- Links with target -->
+        <p>Link opens in new tab: <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">React</a></p>
+        <p>Link opens in new tab: <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer">Node.js</a></p>
+    </section>
+
+    <!-- Media Section -->
+    <section>
+        <h2 class="section-title">Media Elements</h2>
+        
+        <!-- Images -->
+        <h3>Images</h3>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" width="150">
+        <img src="https://via.placeholder.com/300x150" alt="Wide Placeholder" width="300" height="150">
+        
+        <!-- Video -->
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
             Your browser does not support the video tag.
-        </video></p>
-
-        <!-- Audio Tags (audio) -->
-        <p>Audio: <audio controls>
+        </video>
+        
+        <!-- Audio -->
+        <h3>Audio</h3>
+        <audio controls>
             <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
-            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
-        </audio></p>
+        </audio>
+    </section>
 
-        <!-- Block Elements and Inline Elements -->
-        <!-- Block Elements (div, section, article, header, footer, nav, main, aside, details, summary, figcaption, figure,) --> 
-        <div>
-            <h2>Block Element Example</h2>
-            <p>This is a block element. It takes up the full width available.</p>
+    <!-- Block vs Inline Section -->
+    <section>
+        <h2 class="section-title">Block vs Inline Elements</h2>
+        
+        <div style="background-color: #f0f0f0; padding: 10px; margin-bottom: 10px;">
+            <h3>Block Element (div)</h3>
+            <p>This is a block element. It takes up the full width available and creates a new line.</p>
         </div>
+        
+        <p>
+            <span style="background-color: #e0e0e0; padding: 5px;">Inline Element (span)</span> 
+            sits within the flow of text and doesn't create new lines.
+        </p>
+    </section>
 
-        <!-- Inline Elements (span, a, em, strong, i, b, sup, sub, del, ins, u, s, q, dfn, code, samp, kbd, var, mark) -->
-        <span>
-            <h2>Inline Element Example</h2>
-            <p>This is an inline element. It does not take up the full width available.</p>
-        </span>
+    <!-- Tables Section -->
+    <section>
+        <h2 class="section-title">HTML Tables</h2>
+        
+        <!-- Basic Table -->
+        <h3>Basic Table</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Prakash</td>
+                <td>123 Main St</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>456 Elm St</td>
+                <td>25</td>
+            </tr>
+        </table>
+        
+        <!-- Table with colspan -->
+        <h3>Table with colspan</h3>
+        <table>
+            <tr>
+                <th colspan="2">User Information</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Prakash</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>123 Main St</td>
+            </tr>
+        </table>
+        
+        <!-- Table with rowspan -->
+        <h3>Table with rowspan</h3>
+        <table>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>123 Main St</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>456 Elm St</td>
+            </tr>
+        </table>
+        
+        <!-- Complex Table -->
+        <h3>Complex Table Structure</h3>
+        <table>
+            <tr>
+                <th rowspan="2">Category</th>
+                <th colspan="3">Details</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Personal</td>
+                <td>Age</td>
+                <td>30</td>
+                <td>Years</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>175</td>
+                <td>cm</td>
+            </tr>
+        </table>
+    </section>
 
-    </body>
+    <br>
+    <!-- HTML FORM ELEMENTS REFERENCE: This demonstrates all major HTML form input types with proper comments.-->
+
+    <!-- TEXT INPUT -->
+    <!-- Single-line text field for general text input -->
+    Text Input:
+    <input type="text" name="name" placeholder="Enter your name">
+    <br>
+
+    <!-- NUMBER INPUT -->
+    <!-- For numeric values, can restrict min/max values -->
+    Number Input:
+    <input type="number" name="age" placeholder="Enter your age">
+    <br>
+
+    <!-- EMAIL INPUT -->
+    <!-- Validates for email format on submission -->
+    Email Input:
+    <input type="email" name="email" placeholder="Enter your email">
+    <br>
+
+    <!-- PASSWORD INPUT -->
+    <!-- Masks input for sensitive information -->
+    Password Input:
+    <input type="password" name="password" placeholder="Enter your password">
+    <br>
+
+    <!-- DATE INPUT -->
+    <!-- Shows date picker in supporting browsers -->
+    Date Input:
+    <input type="date" name="dob">
+    <br>
+
+    <!-- TIME INPUT -->
+    <!-- Allows time selection with browser-native time picker -->
+    Time Input:
+    <input type="time" name="appointment">
+    <br>
+
+    <!-- FILE UPLOAD -->
+    <!-- Enables file selection from user's device -->
+    File Input:
+    <input type="file" name="resume">
+    <br>
+
+    <!-- URL INPUT -->
+    <!-- Validates for proper URL format -->
+    URL Input:
+    <input type="url" name="website" placeholder="Enter your website URL">
+    <br>
+
+    <!-- COLOR PICKER -->
+    <!-- Displays color selection interface -->
+    Color Picker:
+    <input type="color" name="color" value="#ff0000">
+    <br>
+
+    <!-- SEARCH FIELD -->
+    <!-- Styled differently in some browsers for search -->
+    Search Input:
+    <input type="search" name="search" placeholder="Search">
+    <br>
+
+    <!-- TELEPHONE INPUT -->
+    <!-- For phone numbers, pattern validation recommended -->
+    Telephone Input:
+    <input type="tel" name="phone" placeholder="Enter your phone number">
+    <br>
+
+    <!-- HIDDEN FIELD -->
+    <!-- Not visible to user but submitted with form -->
+    Hidden Input:
+    <input type="hidden" name="hiddenField" value="hiddenValue">
+    <br>
+
+    <!-- BUTTON -->
+    <!-- Generic clickable button (requires JavaScript for functionality) -->
+    Button Input:
+    <input type="button" value="Click Me">
+    <br>
+
+    <!-- IMAGE BUTTON -->
+    <!-- Image that acts as a submit button -->
+    Image Input:
+    <input type="image" src="https://via.placeholder.com/150" alt="Submit" width="150" height="50">
+    <br>
+
+    <!-- RANGE SLIDER -->
+    <!-- Visual slider control for selecting a value within range -->
+    Range Input:
+    <input type="range" name="volume" min="0" max="100" value="50">
+    <br>
+
+    <!-- MONTH SELECTOR -->
+    <!-- For selecting month and year -->
+    Month Input:
+    <input type="month" name="month">
+    <br>
+
+    <!-- WEEK SELECTOR -->
+    <!-- For selecting week and year -->
+    Week Input:
+    <input type="week" name="week">
+    <br>
+
+    <!-- DATE/TIME LOCAL -->
+    <!-- For selecting both date and time (no timezone) -->
+    Datetime Input:
+    <input type="datetime-local" name="meeting">
+    <br>
+
+    <!-- RADIO BUTTONS -->
+    <!-- Single selection from multiple options -->
+    Radio Buttons:
+    <input type="radio" name="option" value="option1" id="option1">
+    <label for="option1">Option 1</label>
+    <input type="radio" name="option" value="option2" id="option2">
+    <label for="option2">Option 2</label>
+    <br>
+
+    <!-- CHECKBOX -->
+    <!-- For binary/toggle options -->
+    Checkbox:
+    <input type="checkbox" name="subscribe" value="yes" id="subscribe">
+    <label for="subscribe">Subscribe to newsletter</label>
+    <br>
+
+    <!-- SUBMIT BUTTON -->
+    <!-- Submits the form data to server -->
+    Submit Button:
+    <input type="submit" value="Submit">
+    <br>
+
+    <!-- RESET BUTTON -->
+    <!-- Clears all form inputs (use cautiously) -->
+    Reset Button:
+    <input type="reset" value="Reset">
+    <br>
+
+    <!-- TEXTAREA -->
+    <!-- Multi-line text input field -->    
+    Textarea:
+    <textarea name="message" placeholder="Enter your message"></textarea>
+    <br>
+
+    <!-- SELECT DROPDOWN -->
+    <!-- Single or multiple selection from dropdown options -->
+    Select Dropdown:
+    <select name="options">
+        <option value="">-- Select an option --</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+    <br>
+    <hr>
+
+    <!-- Form Tags Input type with labels -->
+    <!-- Text Input -->
+    <label for="name">Text Input:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name">
+    <br><br>
+
+    <!-- Number Input -->
+    <label for="age">Number Input:</label>
+    <input type="number" id="age" name="age" placeholder="Enter your age">
+    <br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email Input:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password Input:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <br><br>
+
+    <!-- Date Input -->
+    <label for="dob">Date Input:</label>
+    <input type="date" id="dob" name="dob">
+    <br><br>
+
+    <!-- Time Input -->
+    <label for="appointment">Time Input:</label>
+    <input type="time" id="appointment" name="appointment">
+    <br><br>
+
+    <!-- File Input -->
+    <label for="resume">File Input:</label>
+    <input type="file" id="resume" name="resume">
+    <br><br>
+
+    <!-- URL Input -->
+    <label for="website">URL Input:</label>
+    <input type="url" id="website" name="website" placeholder="Enter your website URL">
+    <br><br>
+
+    <!-- Color Input -->
+    <label for="color">Color Picker:</label>
+    <input type="color" id="color" name="color" value="#ff0000">
+    <br><br>
+
+    <!-- Search Input -->
+    <label for="search">Search Input:</label>
+    <input type="search" id="search" name="search" placeholder="Search">
+    <br><br>
+
+    <!-- Telephone Input -->
+    <label for="phone">Telephone Input:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+    <br><br>
+
+    <!-- Hidden Input -->
+    <input type="hidden" name="hiddenField" value="hiddenValue">
+
+    <!-- Button Input -->
+    <input type="button" value="Click Me">
+    <br><br>
+
+    <!-- Image Input -->
+    <label>Image Input:</label>
+    <input type="image" src="https://via.placeholder.com/150" alt="Submit" width="150" height="50">
+    <br><br>
+
+    <!-- Range Input -->
+    <label for="volume">Range Input:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" value="50">
+    <br><br>
+
+    <!-- Month Input -->
+    <label for="month">Month Input:</label>
+    <input type="month" id="month" name="month">
+    <br><br>
+
+    <!-- Week Input -->
+    <label for="week">Week Input:</label>
+    <input type="week" id="week" name="week">
+    <br><br>
+
+    <!-- Datetime-local Input -->
+    <label for="meeting">Datetime Input:</label>
+    <input type="datetime-local" id="meeting" name="meeting">
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <label>Radio Buttons:</label>
+    <input type="radio" id="option1" name="option" value="option1">
+    <label for="option1">Option 1</label>
+    <input type="radio" id="option2" name="option" value="option2">
+    <label for="option2">Option 2</label>
+    <br><br>
+
+    <!-- Checkbox -->
+    <label for="subscribe">Checkbox:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">Subscribe to newsletter</label>
+    <br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <!-- Reset Button -->
+    <input type="reset" value="Reset">
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="message">Textarea:</label><br>
+    <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+    <br><br>
+
+    <!-- Select Dropdown -->
+    <label for="options">Select Dropdown:</label>
+    <select id="options" name="options">
+        <option value="">-- Please select --</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+<br><hr>
+<!--Form -->
+<!-- Form Tags Input type with labels -->
+<form action="#" method="post">
+    <!-- Text Input -->
+    <label for="name">Text Input:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" minlength="2" required>
+    <br><br>
+
+    <!-- Number Input -->
+    <label for="age">Number Input:</label>
+    <input type="number" id="age" name="age" placeholder="Enter your age" min="18" max="120" required>
+    <br><br>
+
+    <!-- Email Input -->
+    <label for="email">Email Input:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <!-- Password Input -->
+    <label for="password">Password Input:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8" required>
+    <br><br>
+
+    <!-- Date Input -->
+    <label for="dob">Date Input:</label>
+    <input type="date" id="dob" name="dob" required>
+    <br><br>
+
+    <!-- Time Input -->
+    <label for="appointment">Time Input:</label>
+    <input type="time" id="appointment" name="appointment" required>
+    <br><br>
+
+    <!-- File Input -->
+    <label for="resume">File Input:</label>
+    <input type="file" id="resume" name="resume" required>
+    <br><br>
+
+    <!-- URL Input -->
+    <label for="website">URL Input:</label>
+    <input type="url" id="website" name="website" placeholder="Enter your website URL" required>
+    <br><br>
+
+    <!-- Color Input -->
+    <label for="color">Color Picker:</label>
+    <input type="color" id="color" name="color" value="#ff0000" required>
+    <br><br>
+
+    <!-- Search Input -->
+    <label for="search">Search Input:</label>
+    <input type="search" id="search" name="search" placeholder="Search" required>
+    <br><br>
+
+    <!-- Telephone Input -->
+    <label for="phone">Telephone Input:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+    <br><br>
+
+    <!-- Hidden Input -->
+    <input type="hidden" name="hiddenField" value="hiddenValue">
+
+    <!-- Button Input -->
+    <input type="button" value="Click Me" disabled>
+    <br><br>
+
+    <!-- Image Input -->
+    <label>Image Input:</label>
+    <input type="image" src="https://via.placeholder.com/150" alt="Submit" width="150" height="50" disabled>
+    <br><br>
+
+    <!-- Range Input -->
+    <label for="volume">Range Input:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" value="50" required>
+    <br><br>
+
+    <!-- Month Input -->
+    <label for="month">Month Input:</label>
+    <input type="month" id="month" name="month" required>
+    <br><br>
+
+    <!-- Week Input -->
+    <label for="week">Week Input:</label>
+    <input type="week" id="week" name="week" required>
+    <br><br>
+
+    <!-- Datetime-local Input -->
+    <label for="meeting">Datetime Input:</label>
+    <input type="datetime-local" id="meeting" name="meeting" required>
+    <br><br>
+
+    <!-- Radio Buttons -->
+    <label>Radio Buttons:</label>
+    <input type="radio" id="option1" name="option" value="option1" checked>
+    <label for="option1">Option 1</label>
+    <input type="radio" id="option2" name="option" value="option2">
+    <label for="option2">Option 2</label>
+    <br><br>
+
+    <!-- Checkbox -->
+    <label for="subscribe">Checkbox:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes" checked>
+    <label for="subscribe">Subscribe to newsletter</label>
+    <br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+    <br><br>
+
+    <!-- Reset Button -->
+    <input type="reset" value="Reset">
+    <br><br>
+
+    <!-- Textarea -->
+    <label for="message">Textarea:</label><br>
+    <textarea id="message" name="message" placeholder="Enter your message" minlength="10" required></textarea>
+    <br><br>
+
+    <!-- Select Dropdown -->
+    <label for="options">Select Dropdown:</label>
+    <select id="options" name="options" required>
+        <option value="" selected disabled>-- Please select --</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+    <br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+</form>
+
+
+
+</body>
 
 </html>
